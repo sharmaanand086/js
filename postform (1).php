@@ -2,7 +2,7 @@
 session_start();  
 require_once('class.phpmailer.php'); 
    
-$conn = mysqli_connect('localhost', 'world_hello', 'Mumbai@123', 'exitecotrading');
+$conn = mysqli_connect('localhost', 'xxxxxxxxxx', 'xxxxxxxxxxxxxx', 'xxxxxxxxxxxxxxxxxx');
 $name= $_POST['Name'];
 $email= $_POST['eml'];
 $phone= $_POST['Phone'];
@@ -27,8 +27,8 @@ echo'1';
 	$mail->Host = 'mail.arfeenkhan.com';  // Specify main and backup server
 	$mail->Port = '26';
 	$mail->SMTPAuth = 'true';                               // Enable SMTP authentication
-	$mail->Username = 'arfeenkhan@arfeenkhan.com';                            // SMTP username
-	$mail->Password = 'rNX7zSKSCnev';                           // SMTP password
+	$mail->Username = 'xxxxxxxxxxxn@xxxxxxxxxxxxxhan.com';                            // SMTP username
+	$mail->Password = 'xxxxxxxxxxxxxxx';                           // SMTP password
 	$mail->SMTPSecure = 'SSL/TLS';
 
 	try 
